@@ -1,2 +1,4 @@
 # Monte-Carlo-for-Volume-Estimation
-The program is written in Python and aims to estimate the mass of the remaining portion of a sphere using the Monte Carlo method. /该程序使用Python编写，旨在使用蒙特卡洛方法来估计球体剩余部分的质量。
+该程序使用Python编写，旨在使用蒙特卡洛方法来估计球体剩余部分的质量。通过随机生成点，并统计在球体内但不在圆柱内的点的比例，可以估计剩余部分的质量。蒙特卡洛模拟的次数越多，估计结果越准确。最后，根据被截去的点数占总点数的比例，得出球体剩余部分的质量估计值。代码中详细注释解释了每个步骤的目的和实现方法，以帮助更好地理解程序的功能和运行过程。
+
+The program is written in Python and aims to estimate the mass of the remaining portion of a sphere using the Monte Carlo method. By randomly generating points and counting the ratio of points inside the sphere but outside the cylinder, it is possible to estimate the mass of the remaining portion. The accuracy of the estimation improves with a larger number of Monte Carlo simulations. Finally, by calculating the ratio of the discarded points to the total number of points, an estimate of the mass of the remaining portion of the sphere is obtained. The code includes detailed comments explaining the purpose and implementation of each step, facilitating a better understanding of the program's functionality and execution process.
